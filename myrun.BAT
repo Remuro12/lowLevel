@@ -10,4 +10,3 @@ ECHO.
 PAUSE
 CLS
 EXIT
-TODO: if else?
