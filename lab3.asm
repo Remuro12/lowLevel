@@ -26,9 +26,9 @@ copy:
     
     dec cl
     jnz copy
-	jz done
-done:
-    mov [di], byte ptr '$'
+	jz add_end_of_str
+add_end_of_str:
+    mov [di], byte ptr '$' ; фикс вывода
     pop bp
     ret
 strcpy endp
